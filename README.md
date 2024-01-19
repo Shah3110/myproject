@@ -25,7 +25,7 @@ Explore three of my notable projects:
 2. Mobile App for Task Management
    - Description: A mobile application focused on simplifying task management and collaboration.
 
-3. Corporate Branding and Identit*
+3. Corporate Branding and Identity
    - Description: Comprehensive branding initiative for a corporate client, including a new logo and brand guidelines.
 
 ## Connect with Me
