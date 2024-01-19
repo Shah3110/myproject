@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/5652012.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    opacity: 0.9;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.intro img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0ed400;
+}
+
+section {
+    padding: 40px 20px;
+    color: #fff;
+    font-size: large;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.work-samples {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.work-sample {
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.work-sample img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.work-sample:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #0ed400;
+    transform: scale(1.1);
+}
